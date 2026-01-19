@@ -9,13 +9,13 @@
     font-family: "Quicksand", sans-serif;
 }
  header{
+    border: 2px solid #ECEDED ;
     display: flex;
     padding-right: 27px;
     align-items: center;
  }
 .logo-area{
     display: flex;
-    margin-top: 20px;
       h1{
        
        margin-left: 27px ;
@@ -36,12 +36,14 @@
 }
 
 input{
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-left: 25px;
     background-color: #ECF3F5 ;
     margin-left: 109px;
     width: 357px;
     height: 50px;
-    border-radius:  15px 15px 15px 15px ;
+    border-radius:  10px 10px 10px 10px ;
     border: none;
 }
 
@@ -53,23 +55,45 @@ input::placeholder{
 }
 
 .date {
+    align-items: center;
     display: flex;
     margin-left: auto;
     height: 58px;
+      p{
+        margin-right: 21px ;
+    }
+}
+.date::before{
+    padding-left: 10px;
+    padding-bottom: 8px;
+    content: "";
+    width: 16px;
+    height: 18px;
+    background-image: url(./assets/icon/calendar_today_24dp_000000_FILL0_wght400_GRAD0_opsz24.png);
 }
 
 button{
-   
-    align-items: center;
-    width: 175px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border:none;
+    width: 140px;
+    height: 40px;
     color:#2C3832 ;
     background-color: #B1CED4;
+    align-items: center;
        span{
-        display: block;
-        border: 3px solid #2C3832;
+        font-weight: 700;
+        font-size: 10px;
+        color: #2C3832;
+        display: inline-block;
+        vertical-align: middle;
+        border: 2px solid#2C3832;
         height: 18px;
         width: 18px;
         border-radius: 50%;
+        margin-right: 10px;
+        position: relative;
        }
-}
-
+       
+} 
