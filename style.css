@@ -73,6 +73,8 @@ input::placeholder{
 }
 
 button{
+    font-size: 16px;
+    font-weight: 500;
     padding-bottom: 15px;
     padding-top: 10px;
     border-radius: 10px;
@@ -97,3 +99,97 @@ button{
        }
        
 } 
+.meniu{
+    padding-top: 30px;
+    display: flex;
+    gap:29px;
+    margin-left: 140px;
+}
+
+.card{
+  
+    width: 100%;
+    max-width: 203px;
+    height: 214px;
+    background-color: #D8E6E9;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+
+.img{
+    img{
+        object-fit: cover;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 203px;
+        height: 143px;
+    }
+}
+.content{
+
+    h2{
+        margin-top: 8px;
+        font-size: 17px ;
+        font-weight: 500;
+        color: #000000;
+        text-align: center;
+    }
+}
+
+.category p {
+
+      display: inline-block;
+      color: #070000;
+      font-size: 12px;
+      font-weight: 500;
+      margin-left: 11px;  
+      margin-top: 10px;
+}
+.category :nth-child(2){
+      margin-left: 40px;
+      padding: 2px 5px 3px 7px;
+      width: 23px;
+      height: 23px;
+      border-radius: 50%;
+      background-color:#E0B284; 
+}
+    
+.G{
+    color: #FFFFFF;
+}
+
+ .category .N{
+     color:#FFFFFF ;
+     background-color: #A2774C;
+ }
+ 
+ #zero{
+      display: inline-flex;
+       text-align: center;
+       color: #000000;
+       background-color:#EAF0F0;
+       width: 23px;
+       height: 23px;
+       font-size: 13px;
+       font-weight: 600;
+       margin-top: 2px;
+       align-items: center;
+       
+     sub{
+       
+       font-size: 10px;
+     }
+
+ }
+.category.chill2::after{
+     /* margin-top: 10px; ; */
+     display: inline-block;
+     content: "";
+     width:19px ;
+     height: 19px;
+     background-image: url(./assets/icon/chili.png);
+     background-size: contain;
+     padding-right: 15px;
+     padding-left: 2px;
+    }
