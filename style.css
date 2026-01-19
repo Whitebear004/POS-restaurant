@@ -177,13 +177,11 @@ button{
        align-items: center;
        
      sub{
-       
        font-size: 10px;
      }
 
  }
 .category.chill2::after{
-     /* margin-top: 10px; ; */
      display: inline-block;
      content: "";
      width:19px ;
@@ -192,4 +190,67 @@ button{
      background-size: contain;
      padding-right: 15px;
      padding-left: 2px;
+    transform: translateY(6px)  /*   აიკონების ქვევით ჩამოწევა  */
     }
+.category.chill1::after{
+     display: inline-block;
+     content: "";
+     width:19px ;
+     height: 19px;
+     background-image: url(./assets/icon/chili.png);
+     background-size: contain;
+     padding-right: -6px;
+     padding-left: 1px;
+     transform: translateY(6px)
+    }
+   .category .chill0{
+          margin-right: 30px;
+    }
+
+
+.footer-actions{
+    position: fixed;       /*  აფიქსირებს ფუტერს ეკრანზე */
+    bottom: 1px;
+    left: 10px;
+    z-index: 50;
+    padding-left:  25px; ;
+    width: 949px;
+    height: 106px;
+    display: flex;
+    gap: 77px;
+    align-items: center;
+    margin-left:115px ;
+    border:2px #EAF0F0 ;
+    background-color: #EAF0F0;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+
+.footer-actions button:nth-child(1){
+    background-color: #4A5C2F;
+    color:#D8E6E9 ;
+}
+.footer-actions button:nth-child(2){
+    background-color: #D9D9D9;
+    color:#A9A9A9 ;
+}
+.footer-actions button:nth-child(3){
+     background-color: #D9D9D9;
+    color:#A9A9A9 ;
+}
+.footer-actions button:nth-child(4){
+     background-color: #D9D9D9;
+    color:#A9A9A9 ;
+}
+
+
+.footer-actions button:hover {
+    opacity: 0.4; 
+    background-color: green;
+}
+
+
+
+   
